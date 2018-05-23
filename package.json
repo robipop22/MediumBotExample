@@ -1,0 +1,17 @@
+{
+  "name": "medium-bot-example",
+  "version": "1.0.0",
+  "description": "bot example for medium article",
+  "main": "index.js",
+  "dependencies": {
+    "micro-bot": "^2.2.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "micro-bot -t ${BOT_TOKEN} index.js",
+    "now-start": "micro-bot -d ${NOW_URL}",
+    "deploy-bot": "now --public -e BOT_TOKEN='${BOT_TOKEN}'"
+  },
+  "author": "Robert Pop",
+  "license": "ISC"
+}
