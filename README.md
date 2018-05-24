@@ -1,6 +1,6 @@
 # Example bot implemented using [Telegraf](https://telegraf.js.org/#/)
 
-# The original article can be found here : https://medium.com/@poprobertdaniel22/beep-beep-boop-im-a-bot-e55aa1301694
+### The original article can be found here : https://medium.com/@poprobertdaniel22/beep-beep-boop-im-a-bot-e55aa1301694
 
 ## If you want to run locally this bot with your token type:
 
