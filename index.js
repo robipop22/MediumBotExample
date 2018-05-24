@@ -11,9 +11,6 @@ MediumExampleBot.hears('hi', ({
 MediumExampleBot.command('/test', context => {
 	const { reply } = context
 	reply('Test command received succesfully !')
-	// const { message } = context.update
-	// const userName = message.from.first_name
-	// context.reply(devlogText(userName))
 })
 
 MediumExampleBot.command('/second', context => {
